@@ -83,7 +83,7 @@ def get_transitions(text):
 
     return starters,transitons
 
-if __name__ == 'main':
+if __name__ == '__main__':
     text = readText()
     starters,transitons = get_transitions(text)
     test = make_text(starters,transitons,n = 10000,order = 2)
